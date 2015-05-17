@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>That's a brand new popup!</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="/jquery.min.js"></script>
+	<style>
+		body
+		{
+			height: 600px;
+			width: 300px;	
+		}
+	</style>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+
+</head>
+<body>
+	<script type="text/javascript" src="popup.js"></script>
+	<div style="padding:10px">
+	<div style="padding:10px; font-size:150%">Add new theme</div>
+	<div style="padding:10px">
+		<form id="frm1">
+	  		<input id="addInput" type="text" name="newTheme" value=""><br>
+		</form>
+	</div>
+	<div style="padding:10px">
+		<button id="addButton" class="btn btn-info"> Add theme</button>
+		
+	</div>
+	</div>
+
+	<div style="padding:20px" class="container">
+		<p><font size="4" color="black" face="verdana"><left>Manage Filters</left></font></p>
+		<h6 id="vazio"></h6>
+		<table id = "tabela" style="width:70%" class="table table-condensed">
+		</table>
+
+	</div>
+
+	</body>
+</html>

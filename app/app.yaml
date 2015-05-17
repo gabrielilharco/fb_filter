@@ -1,0 +1,16 @@
+application: steel-lacing-568 
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /google593cf5d0a085f155.html
+  static_dir: chromeExt
+
+- url: /.*
+  script: fbward.application
+
+libraries:
+- name: webapp2
+  version: latest
