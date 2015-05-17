@@ -1,16 +1,18 @@
-application: steel-lacing-568 
-version: 1
+application: big-formula-94718
+version: 20150516t174840
+
 runtime: python27
 api_version: 1
-threadsafe: true
+threadsafe: yes
 
 handlers:
-- url: /google593cf5d0a085f155.html
-  static_dir: chromeExt
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
 
-- url: /.*
-  script: fbward.application
+- url: .*
+  script: main.app
 
 libraries:
 - name: webapp2
-  version: latest
+  version: "2.5.2"
